@@ -12,7 +12,6 @@ from rest_framework import status
 from cinema.models import Movie, MovieSession, CinemaHall, Genre, Actor
 
 MOVIE_URL = reverse("cinema:movie-list")
-MOVIE_SESSION_URL = reverse("cinema:moviesession-list")
 
 
 def sample_movie(**params):
